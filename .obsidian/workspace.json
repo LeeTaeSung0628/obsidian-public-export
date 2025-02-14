@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "lib/media/favicon.png"
+                "file": "lib/media/6155340132a851f6089e.svg"
               },
               "icon": "lucide-image",
-              "title": "favicon"
+              "title": "6155340132a851f6089e"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "4051e39869d32e0a",
   "lastOpenFiles": [
+    "lib/media/favicon.png",
     "lib/media/6155340132a851f6089e.svg",
     "vault.html",
     "사진-및-문서/사진-및-문서.html",
