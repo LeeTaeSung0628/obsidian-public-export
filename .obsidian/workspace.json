@@ -11,12 +11,10 @@
             "id": "4051e39869d32e0a",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "lib/media/6155340132a851f6089e.svg"
-              },
-              "icon": "lucide-image",
-              "title": "6155340132a851f6089e"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -76,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 515.5
   },
   "right": {
     "id": "ead7a08d1c7c05cb",
@@ -174,8 +172,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "afb1b9afaf63de88",
+  "active": "4051e39869d32e0a",
   "lastOpenFiles": [
+    "사진-및-문서/(ace-trader)-픽셀형-스크립트-설치-가이드_240415_일반형.pdf",
+    "사진-및-문서/온라인투자연계금융업-중앙기록관리업무-전산설계서(v1.3.12).pdf",
+    "lib/media/6155340132a851f6089e.svg",
     "lib/media/pasted-image-20250107173902.png",
     "lib/media/pasted-image-20250102181842.png",
     "lib/media/do-messenger_screenshot_2024-12-30_15_52_09.png",
@@ -185,8 +186,6 @@
     "lib/media/pasted-image-20250102160213.png",
     "lib/media/pasted-image-20241230135801.png",
     "lib/media/pasted-image-20241226171158.png",
-    "lib/media/pasted-image-20241226152219.png",
-    "lib/media/pasted-image-20241226111559.png",
     "사진-및-문서/scf-대출신청_v0.5-1.pptx",
     "사진-및-문서/scf-대출신청_v0.5.pptx",
     "사진-및-문서/p2p대출_전문레이아웃_v4.2.xlsx",
@@ -195,7 +194,6 @@
     "사진-및-문서/hf-dt-20-테스트-수행내역서_투자후기_리뷰이벤트_추가적용.xlsx",
     "사진-및-문서/hf-dm-20-05-p2p자금-분리운영-신한은행-insidebank-인터페이스-가이드_v2.8(java용).docx",
     "사진-및-문서/hellofunding(it기술본부-브리핑).pptx",
-    "사진-및-문서/acetrader_pixelscript_template_20240620-fix_20240625.txt",
-    "사진-및-문서/카카오_마케팅유입draft.pptx"
+    "사진-및-문서/acetrader_pixelscript_template_20240620-fix_20240625.txt"
   ]
 }
