@@ -11,10 +11,12 @@
             "id": "4051e39869d32e0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "image",
+              "state": {
+                "file": "lib/media/favicon.png"
+              },
+              "icon": "lucide-image",
+              "title": "favicon"
             }
           }
         ]
@@ -172,8 +174,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "afb1b9afaf63de88",
+  "active": "4051e39869d32e0a",
   "lastOpenFiles": [
+    "lib/media/6155340132a851f6089e.svg",
     "vault.html",
     "사진-및-문서/사진-및-문서.html",
     "사진-및-문서/[헬로핀테크]예비군-훈련으로-인한-공가-신청_2024-06-05_11-40.html",
@@ -183,7 +186,6 @@
     "공부/melometer.html",
     "공부/java-,-oop.html",
     "공부/etc.html",
-    "공부/devops.html",
-    "공부/database.html"
+    "공부/devops.html"
   ]
 }
