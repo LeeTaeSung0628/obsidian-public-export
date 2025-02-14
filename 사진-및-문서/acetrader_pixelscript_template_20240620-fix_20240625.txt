@@ -1,0 +1,61 @@
+광고주코드(id):   1954816599
+
+광고주 ID: 
+
+----------------------------------------------------------------------------------------
+
+0 공통
+HTML의 Head 영역에 위치하도록 합니다.
+<script type="text/javascript" src="https://cdn.nhnace.com/libs/aceat.js?advid=광고주ID" async></script>
+
+
+*공통영역에 작업이 불가피한 경우
+visit과 함께 매 페이지 마다 넣을 수도 있습니다.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+1. [ Visit, Pageview ]
+<script>
+try{
+  var _ADVID ='광고주 ID';
+  var _EUR=function(a){a=encodeURIComponent(a);return a;};
+  var _toastace=new Image(0,0);
+  
+  var _ESTR='u='+_EUR(document.URL)+"&advid="+_ADVID+"&r="+_EUR(document.referrer)+"&code=utf-8&target="+_EUR(_EUR('{"oid":"","items":[]}'))+"&action=visit";_toastace.src="//adlc-exchange.toast.com/log?"+_ESTR;
+}catch(_e){}
+</script>
+
+
+--------------------------------------------------------------------------------------------
+
+
+* 상품과 관련해서는 action만 달라짐(action=view, action=cart, action=buy)
+* action 
+  - 상품보기 : view
+  - 장바구니 : cart
+  - 구매완료 : buy
+
+2. 구매/상품보기/장바구니
+<script type="text/javascript">
+try {
+	var _ADVID = "/*광고주ID*/";
+	var _tagType = "buy";
+
+	// 아이템 정보
+	var eCommmItems = [
+		{
+			id: "/*(필수)ID값입력*/",
+			iname: "/*(필수)제품명또는 전환메뉴명입력*/",
+			count: "/*(필수)제품 수량 정보입력*/",
+			price: "/*(필수)가격정보입력*/",
+			cat: "/*(선택)카테고리 대|중|소*/",
+			idesc: "/*상품상세 설명 text*/",
+			img: "/*img링크값입력 ex)http://example.com/img/img.jpg*/",
+			link: "/*상품상세페이지 URL ex)http://example.com/detail/product.html*/",
+		},
+	];
+
+	var _aceTraderItems = "["; for (var i = 0; i < eCommmItems.length; i++) { _aceTraderItems += "{" + " 'item' : {" + "  'id' : '" + eCommmItems[i].id + "'," + "  'iname' : '" + eCommmItems[i].iname + "'," + "  'count' : " + eCommmItems[i].count + "," + "  'price' : " + eCommmItems[i].price + "," + "  'cat' : '" + eCommmItems[i].cat + "'," + "  'idesc' : '" + eCommmItems[i].idesc + "'," + "  'img' : '" + eCommmItems[i].img + "'," + "  'link' : '" + eCommmItems[i].link + "'," + " }" + "},"; } _aceTraderItems = _aceTraderItems.substr(0, _aceTraderItems.lastIndexOf(",")); _aceTraderItems += "]"; function _EUR(a) { a = encodeURIComponent(a); return a; } var _toastace = new Image(0, 0); var _ESTR = "u=" + _EUR(document.URL) + "&advid=" + _ADVID + "&r=" + _EUR(document.referrer) + "&code=utf-8&target=" + _EUR(_EUR('{"oid":"","items":' + _aceTraderItems + "}")) + "&action=" + _tagType; _toastace.src = "https://adlc-exchange.toast.com/log?" + _ESTR;
+} catch (e) {}
+</script>
+
